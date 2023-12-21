@@ -1,0 +1,294 @@
+body {
+    background-color: #D5EEEA;
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+.Nav {
+    border: 3px solid black;
+    background-color: aliceblue;
+    font-size: 35px;
+}
+
+.Header1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    font-size: medium;
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profilepic {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intromessage {
+    font-size: 20px;
+    margin: 0 300px;
+}
+
+.portfoliolink {
+    text-align: center;
+}
+
+.categoriesBox {
+    max-width: 30%;
+    font-size: 30px;
+    margin-top: 300px;
+    border: 3px solid black;
+}
+
+.categoriesBox h2 {
+    cursor: pointer;
+}
+
+.Thumbnails {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.portfolioinfo {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.portfoiopageinfo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Header1 {
+    margin-top: 10px;
+}
+
+#portfolio2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.previousworksthumb {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paperprototypes {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+.videoprototypes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.videoequipment {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#corporatevideolink {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.ContactForm {
+
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.contactme {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.contactparagraph {
+    font-size: 25px;
+    text-align: center;
+}
+
+.homepageinfo {
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#clickable {
+    cursor: pointer;
+    color: blue;
+}
+
+#alignRight {
+    text-align: end;
+}
+
+.bigFont {
+    font-size: 30px;
+}
+
+.Thumbnails img {
+    margin-top: 20px;
+    min-height: 310px;
+}
+
+.Thumbnails .bigFont {
+    font-weight: bold;
+}
+
+.Thumbnails>div {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alignedLabels {
+    width: 200px;
+    text-align: end;
+    display: inline-block;
+}
+
+.contactInfoContainer h3 {
+    font-size: 30px;
+    margin-bottom: 10px !important;
+    margin-top: 10px;
+}
+
+.contactInfoContainer .infoLabel {
+    margin-top: 40px;
+}
+
+#messageinput {
+    margin-top: 10px;
+    height: 60px;
+}
+
+#submitButton {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.aboutmoreinfo {
+    font-size: 20px;
+}
+
+.myskills {
+    align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+    .mobileView {
+        display: block;
+        font-size: 15px;
+    }
+    .mobileView img{
+        display: none;
+    }
+    .mobilenav {
+        font-size: 20px;
+    }
+    .mobileView h1{
+        font-size: 25px;
+    }
+    .Thumbnails {
+        display: block;
+        border: 2px solid black;
+    }
+    .Thumbnails img {
+        max-width: 100%;
+    }
+    .Thumbnails>div {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .paperprototypes {
+        display: block;
+        border: 2px solid black;
+    }
+    .paperprototypes img{
+        width: 100%;
+    }
+    .paperprototypes.smallWidth, .videoprototypes.smallWidth{
+        width: 60%;
+        margin: auto;
+    }
+    #corporatevideolink iframe{
+        width: 100% !important;
+    }
+    .videoprototypes {
+        display: block;
+        margin-top: 20px;
+        border: 2px solid black;
+    }
+    .videoprototypes img{
+        width: 100%;
+    }
+}
+
+
+
+.mobileviewhomepage {
+    display: inline;
+}
+
+.mobileimage {
+    overflow: hidden;
+}
+
+@media screen and (min-width:451px) and (max-width: 850px) {
+    .mobileimage {
+        overflow: hidden;
+    }
+}
