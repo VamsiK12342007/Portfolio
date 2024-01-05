@@ -76,7 +76,7 @@ img {
 h2 {
     font-size: 30px;
     text-align: center;
-    border: 2px solid black;
+    
 }
 
 h3 {
@@ -113,7 +113,7 @@ h3 {
 .paperprototypes {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid black;
+   
 }
 
 .videoprototypes {
@@ -224,6 +224,78 @@ h3 {
 .myskills {
     align-items: center;
 }
+
+.vklogo {
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 45px;
+}
+
+#vklogo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#vkparagraph {
+    margin-top: 20px;
+}
+
+#vklogo2 {
+    text-align: center;
+}
+
+.vkparagraphs {
+    text-align: left;
+    font-size: medium;
+}
+
+.vksketches {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.vkdesignpages {
+    display: flex;
+    justify-content: center;
+    margin-right:30px;
+}
+
+.techlist {
+    font-size: medium;
+    text-align: center;
+}
+
+.logoimages {
+    display: block;
+    text-align: center;
+}
+
+.wixlink {
+    text-align: center;
+    font-size: 30px;
+}
+
+.appwireframes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.vkpersonas {
+    display: flex;
+    justify-content: space-evenly;
+    -ms-text-combine-horizontal: ;
+}
+
+hr.new4 {
+    border-top: 3px solid black;
+}
+
+hr.new3 {
+    border-top: 3px dashed black;
+}
+
 
 @media screen and (max-width: 450px) {
     .mobileView {
