@@ -9,6 +9,13 @@
     <meta name="keywords" content="Graphic design, film production,web design ">
     <meta name="viewport" content="width=device-width">
     <link href="./../CSS/stylesheet.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./../JS/emailjs.min.js"></script>
+    <script src="./../JS/contact.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("dnRIthpO5EfWd-hKa");
+        })();
+     </script>
 </head>
 
 <div class="Header1 mobileView">
@@ -42,34 +49,35 @@
 
 <h2>Contact Form</h2>
 <div>
-    <form class="ContactForm">
+    <form onsubmit="sendFeedback()" class="ContactForm" id="contactForm">
         <div>
             <label class="alignedLabels" for="fname">First Name</label>
-            <input type="text" name="First">
+            <input type="text" name="fname">
         </div>
 
         <div>
             <label class="alignedLabels" for="fname">Last Name</label>
-            <input type="text" name="Last">
+            <input type="text" name="lname">
         </div>
 
         <div>
             <label class="alignedLabels" for="fname">Email</label>
-            <input type="text" name="Email">
+            <input type="text" name="email">
         </div>
 
         <div>
             <label class="alignedLabels" for="fname">Phone Number</label>
-            <input type="text" name="Phone Number">
+            <input type="text" name="phone">
         </div>
 
         <div>
             <label class="alignedLabels" for="fname">Message</label>
-            <textarea id="messageinput" type="text" name="Message"></textarea>
+            <textarea id="messageinput" type="text" name="message"></textarea>
         </div>
 
         <div>
             <input id="submitButton" type="submit" class="Button" value="Submit">
         </div>
     </form>
+    <h3 class="hidden" id="thanksmsg">Message sent. Thank you for contacting me. I will be eager to get in touch with you.</h3>
     </div>

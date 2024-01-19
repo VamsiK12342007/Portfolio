@@ -296,6 +296,9 @@ hr.new3 {
     border-top: 3px dashed black;
 }
 
+.hidden{
+    display: none;
+}
 
 @media screen and (max-width: 450px) {
     .mobileView {
