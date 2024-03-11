@@ -299,6 +299,17 @@ h4 {
 .bigFont {
     font-size: 20px;
     color: white;
+   
+}
+
+.portfoliopagepizza {
+    transition: transform;
+}
+
+.portfoliopagepizza:hover {
+    -ms-transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
 }
 
 .portfolioinfo h1 {
@@ -450,7 +461,6 @@ h1 {
 .vkpersonas {
     display: flex;
     justify-content: space-evenly;
-    -ms-text-combine-horizontal: ;
 }
 
 hr.new4 {
@@ -506,6 +516,30 @@ hr.new4 {
     body{
         margin: 0;
     }
+    .homepagekv {
+        transition: transform;
+    }
+    .homepagekv:hover {
+        -ms-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+    .homepagecorporatevideo {
+        transition: transform;
+    }
+    .homepagecorporatevideo:hover {
+        -ms-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+    .homepagevk {
+        transition: transform;
+    }
+    .homepagevk:hover {
+        -ms-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
     .mobilenav {
         display: block;
         height: 40px;
@@ -513,7 +547,7 @@ hr.new4 {
         margin: 0;
         font-size: 20px;
     }
-    .mobileView{
+    .mobileView {
         text-align: center;
     }
     .mnavIcon {
@@ -563,7 +597,8 @@ hr.new4 {
         justify-content: space-between;
         align-items: center;
     }
-    .Thumbnails p{
+
+    .Thumbnails p {
         font-size: 15px;
         padding: 10px;
     }
