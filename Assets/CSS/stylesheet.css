@@ -434,7 +434,6 @@ h1 {
 .vkdesignpages {
     display: flex;
     justify-content: center;
-    margin-right: 30px;
 }
 
 .techlist {
@@ -567,6 +566,10 @@ hr.new4 {
         width: 100%;
         font-size: 30px;
     }
+    .programicons {
+        display: block;
+        margin-right: 0px;
+    }
     .expanded {
         height: 250px;
     }
@@ -631,9 +634,25 @@ hr.new4 {
     .videoprototypes img {
         width: 100%;
     }
-    .portfoiopageinfo {
+    .portfoiopageinfo,.vkparagraphs {
         font-size: 20px;
         padding: 10px;
+    }
+    .aboutmeinfo, .contactinfo, .appwireframes, .vkdesignpages, .vkdesignpages{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolioinfo img,.vkpersonas img,.paperprototypes img,
+    .vkdesignpages img, .logoimages img, .vklogo img{
+        width: 100%;
+    }
+    .aboutmoreinfo, .contactInfoContainer, .contactFormContainer{
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: none;
     }
 }
 
