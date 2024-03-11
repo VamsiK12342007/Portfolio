@@ -10,6 +10,12 @@
     <meta name="viewport" content="width=device-width">
     <link href="./../CSS/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById('mobilenav');
+            nav.classList.toggle('expanded');
+        }
+    </script>
 </head>
 
 <div class="Header1 mobileView">
@@ -18,9 +24,12 @@
     <div>
 
         <div>
-
-            <nav class="Header1 Nav mobilenav">
-
+            <nav class="Header1 Nav mobilenav" id="mobilenav">
+                <li id="mnavIcon" class="mnavIcon" onclick="toggleMenu()">
+                    <a href=#>
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
                 <div class="programicons">
                     <a href="./../../index.html">Home <i class="fa-solid fa-house"></i></a>
                 </div>
@@ -90,7 +99,7 @@
 
     <div class="Thumbnails">
         <div>
-            <a class="bigFont" href="Temple Video.html">Guruvayurappan Temple Video</a>
+            <a class="bigFont" href="Temple video.html">Guruvayurappan Temple Video</a>
             <div class="portfoliopagepizza">
                 <img src="./../Images/Home Icons/Temple Video Icon 2.png" Width="400px" height="300px">
             </div>
@@ -127,10 +136,10 @@
                 </div>
             </div>
         </div>
-
-        <footer class="footer">
-            <h4>GET IN TOUCH</h4>
-            <h5>Vamsi Kurli</h5>
-            <h5>vamskurli4@gmail.com</h5>
-            <h5>647-702-7148</h5>
-        </footer>
+    </div>
+    <footer class="footer">
+        <h4>GET IN TOUCH</h4>
+        <h5>Vamsi Kurli</h5>
+        <h5>vamskurli4@gmail.com</h5>
+        <h5>647-702-7148</h5>
+    </footer>

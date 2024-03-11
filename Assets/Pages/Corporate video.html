@@ -11,6 +11,12 @@
     <link href="./../CSS/stylesheet.css" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <script src="./../JS/Corporate Video.js"></script>
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById('mobilenav');
+            nav.classList.toggle('expanded');
+        }
+    </script>
 </head>
 
 
@@ -20,9 +26,12 @@
     <div>
 
         <div>
-
-            <nav class="Header1 Nav mobilenav">
-
+            <nav class="Header1 Nav mobilenav" id="mobilenav">
+                <li id="mnavIcon" class="mnavIcon" onclick="toggleMenu()">
+                    <a href=#>
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
                 <div class="programicons">
                     <a href="./../../index.html">Home <i class="fa-solid fa-house"></i></a>
                 </div>

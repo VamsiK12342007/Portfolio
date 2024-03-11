@@ -17,17 +17,24 @@
             emailjs.init("dnRIthpO5EfWd-hKa");
         })();
     </script>
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById('mobilenav');
+            nav.classList.toggle('expanded');
+        }
+    </script>
 </head>
 
 <div class="Header1 mobileView">
     <img src="./../Images/Logo/Vamsi Kurli Logo.png" Width="200px" height="75px">
-
     <div>
-
         <div>
-
-            <nav class="Header1 Nav mobilenav">
-
+            <nav class="Header1 Nav mobilenav" id="mobilenav">
+                <li id="mnavIcon" class="mnavIcon" onclick="toggleMenu()">
+                    <a href=#>
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
                 <div class="programicons">
                     <a href="./../../index.html">Home <i class="fa-solid fa-house"></i></a>
                 </div>
