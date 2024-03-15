@@ -687,8 +687,7 @@ hr.new4 {
 
 @media only screen 
    and (min-device-width : 768px) 
-   and (max-device-width : 1024px) 
-   and (orientation : landscape) {
+   and (max-device-width : 1024px) {
     .mobileimage {
         overflow: hidden;
     }
