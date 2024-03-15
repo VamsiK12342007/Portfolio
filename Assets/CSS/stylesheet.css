@@ -699,6 +699,7 @@ hr.new4 {
     }
     .homepagekv img{
         width: 100% !important;
+        height: 125px;
     }
     .mobilenav{
         margin-left: 50px;
