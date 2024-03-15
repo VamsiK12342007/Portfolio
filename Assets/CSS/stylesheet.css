@@ -532,17 +532,21 @@ hr.new4 {
     -webkit-transform: scale(0.75);
     transform: scale(0.75);
 }
+.logoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileviewhomepage {
+    display: inline;
+}
+
+.mobileimage {
+    overflow: hidden;
+}
 @media screen and (max-width: 450px) {
     body{
         margin: 0;
-    }
-    .homepagekv {
-        transition: transform;
-    }
-    .homepagekv:hover {
-        -ms-transform: scale(0.75);
-        -webkit-transform: scale(0.75);
-        transform: scale(0.75);
     }
     .homepagecorporatevideo {
         transition: transform;
@@ -681,30 +685,44 @@ hr.new4 {
 
 }
 
-.logoContainer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.mobileviewhomepage {
-    display: inline;
-}
-
-.mobileimage {
-    overflow: hidden;
-}
-
-@media screen and (min-width:451px) and (max-width: 850px) {
+@media only screen 
+   and (min-device-width : 768px) 
+   and (max-device-width : 1024px) 
+   and (orientation : landscape) {
     .mobileimage {
         overflow: hidden;
     }
-
     .tabletres{
         overflow: hidden;
     }
-
-  .tabletreskv {
-    width: auto;
-    height: auto;
-  }
+    .homepagekv{
+        max-width: 30%;
+    }
+    .homepagekv img{
+        width: 100% !important;
+    }
+    .mobilenav{
+        margin-left: 50px;
+    }
+    .programicons{
+        margin-right: 20px;
+    }
+    .tabletreskv {
+        width: auto;
+        height: auto;
+    }
+    .aboutmeinfo, .contactinfo{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .aboutmoreinfo, .contactInfoContainer{
+        max-width: unset;
+    }
+    .paperprototypes, .appwireframes, .videoprototypes{
+        flex-wrap: wrap;
+    }
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
 }
