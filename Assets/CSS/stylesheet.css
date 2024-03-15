@@ -379,6 +379,18 @@ h4 {
     max-width: 50%;
 }
 
+.socialmediacontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin: 0px;
+}
+.socialmediacontainer img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
 .myskills {
     display: flex;
     text-align: left;
@@ -686,4 +698,13 @@ hr.new4 {
     .mobileimage {
         overflow: hidden;
     }
+
+    .tabletres{
+        overflow: hidden;
+    }
+
+  .tabletreskv {
+    width: auto;
+    height: auto;
+  }
 }
