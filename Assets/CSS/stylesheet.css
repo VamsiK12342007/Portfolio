@@ -63,10 +63,15 @@ footer {
     background-color: white;
     color: black;
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
+    bottom: 0;
+    height: 160px;
+    max-height: 160px;
 }
-
+.lastdiv{
+    margin-bottom: 160px;
+}
 h1 {
     font-size: 30px;
 }
