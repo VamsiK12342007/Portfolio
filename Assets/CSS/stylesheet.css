@@ -568,7 +568,7 @@ footer h4{
 }
 @media screen and (max-width: 450px) {
     body{
-        margin: 0;
+        margin: 10px;
     }
     .homepagecorporatevideo {
         transition: transform;
@@ -698,7 +698,6 @@ footer h4{
     .aboutmoreinfo, .contactInfoContainer, .contactFormContainer{
         width: 100%;
         max-width: 100%;
-        padding: 10px;
     }
     .dropdown:hover .dropdown-content {
         display: none;
@@ -769,5 +768,20 @@ footer h4{
     }
     #wixsite{
         justify-content: center;
+    }
+    footer {
+        font-size: medium;
+        text-align: center;
+        background-color: white;
+        color: black;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 160px;
+        max-height: 160px;
+    }
+    .lastdiv{
+        margin-bottom: 160px;
     }
 }
