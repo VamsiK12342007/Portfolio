@@ -769,7 +769,7 @@ footer h4{
     #wixsite{
         justify-content: center;
     }
-    footer {
+    footer.fixed{
         font-size: medium;
         text-align: center;
         background-color: white;
@@ -780,8 +780,5 @@ footer h4{
         bottom: 0;
         height: 160px;
         max-height: 160px;
-    }
-    .lastdiv{
-        margin-bottom: 160px;
     }
 }
