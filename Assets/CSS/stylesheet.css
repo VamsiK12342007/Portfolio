@@ -136,7 +136,7 @@ h4 {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .Header1 {
@@ -225,7 +225,7 @@ h4 {
 }
 
 .myprograms {
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -264,7 +264,7 @@ h4 {
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 /* Links inside the dropdown */
@@ -603,7 +603,7 @@ footer h4{
     }
     .mobileView {
         display: block;
-        font-size: 15px;
+        font-size: 16px;
     }
     .mobileView h1 {
         font-size: 25px;
@@ -649,7 +649,7 @@ footer h4{
     }
 
     .Thumbnails p {
-        font-size: 15px;
+        font-size: 16px;
         padding: 10px;
     }
 
