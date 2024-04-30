@@ -645,6 +645,7 @@ footer h4{
     }
     .mobileView h1 {
         font-size: 25px;
+        color: black;
     }
     .programicons a{
         display: block;
