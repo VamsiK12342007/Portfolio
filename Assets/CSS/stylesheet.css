@@ -2,7 +2,6 @@ body {
     background-color: white;
     font-family: "Merriweather", serif;
     font-size: 40px;
-    color: White;
     margin: 0 150px;
     margin-bottom: 20px;
 }
@@ -36,7 +35,7 @@ body {
 }
 
 a:link {
-    color: white;
+    color: black;
 }
 
 a:visited {
